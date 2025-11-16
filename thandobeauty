@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Appointment - Thando's Beauty</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Thando's Beauty</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="booking.html">Booking</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<div class="booking-container"><!DOCTYPE html>
+<html>
+<head>
+    <title>Services - Thando's Beauty</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Thando's Beauty</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<div class="services-container">
+    <h2>Knotless Braids Price List</h2>
+
+    <div class="service-card">
+        <h3>Short Knotless Braids</h3>
+        <p><strong>Price:</strong> R200</p>
+    </div>
+
+    <div class="service-card">
+        <h3>Long Knotless Braids</h3>
+        <p><strong>Price:</strong> R250</p>
+    </div>
+
+    <div class="service-card">
+        <h3>Extended Knotless Braids</h3>
+        <p><strong>Price:</strong> R300</p>
+    </div>
+
+    <div class="service-card">
+        <h3>Hairpiece Blending (Optional)</h3>
+        <p><strong>Additional Cost:</strong> R30</p>
+    </div>
+
+    <div class="service-card">
+        <h3>Knotless with Goddess Effect</h3>
+        <p><strong>Additional Cost:</strong> R50</p>
+    </div>
+</div>
+
+<footer>
+    © 2025 Thando's Beauty
+</footer>
+
+</body>
+</html>
+
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #fff;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background: #ff4da6;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+
+.hero {
+    height: 90vh;
+    background: url("images/salon1.jpg") center/cover no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.btn {
+    background: black;
+    padding: 12px 25px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background: #ff4da6;
+}
+
+/* SERVICES PAGE */
+.services-container {
+    padding: 40px;
+}
+
+.service-card {
+    background: #ffe6f2;
+    border-left: 5px solid #ff4da6;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* GALLERY PAGE */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* CONTACT PAGE */
+.contact {
+    padding: 40px;
+    text-align: center;
+}
+
+/* BOOKING PAGE */
+.booking-container {
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+}
+
+.booking-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff4da6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+form input, select, textarea {
+    padding: 10px;
+    border: 2px solid #ff4da6;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px;
+    background: #ff4da6;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: black;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact - Thando's Beauty</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Thando's Beauty</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<div class="contact">
+    <h2>Book Your Appointment</h2>
+    <p><strong>WhatsApp:</strong> 060 637 4546</p>
+    <p><strong>Location:</strong> 102 Long Street, Albertynshof Kimberley, South Africa</p>
+
+    <a class="btn" href="https://wa.me/27606374546">Chat on WhatsApp</a>
+     <h3>Follow Us</h3>
+
+    <p>
+        <img src="images/tiktok.png" width="25" style="vertical-align: middle;">
+        <a href="https://www.tiktok.com/@goofy" target="_blank" style="color:#ff4da6; font-weight:bold;">
+            @Goofy
+        </a>
+    </p>
+
+    <a class="btn" href="https://wa.me/27606374546">Chat on WhatsApp</a>
+</div>
+
+<footer>
+    © 2025 Thando's Beauty
+</footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery - Thando's Beauty</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Thando's Beauty</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<h2 style="text-align:center; margin-top:20px;">Our Work</h2>
+
+<div class="gallery">
+    <img src="images/braid1.jpg" alt="braid 1">
+    <img src="images/braid2.jpg" alt="braid 2">
+    <img src="images/braid3.jpg" alt="braid 3">
+    <img src="images/braid4.jpg" alt="braid 4">
+    <img src="images/braid5.jpg" alt="braid 5">
+    <img src="images/braid6.jpg" alt="braid 6">
+</div>
+
+<footer>
+    © 2025 Thando's Beauty
+</footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thando's Beauty</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Thando's Beauty</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Your Beauty, Our Touch</h2>
+    <p>Specializing in neat, affordable knotless braids.</p>
+    <a class="btn" href="contact.html">Book Now</a>
+</section>
+
+<footer>
+    © 2025 Thando's Beauty | All Rights Reserved
+</footer>
+
+</body>
+</html>
+
+    <h2>Online Booking Form</h2>
+
+    <form id="bookingForm">
+
+        <label>Full Name:</label>
+        <input type="text" id="name" required>
+
+        <label>Phone Number:</label>
+        <input type="text" id="phone" required>
+
+        <label>Select Service:</label>
+        <select id="service" required>
+            <option value="Short Knotless - R200">Short Knotless - R200</option>
+            <option value="Long Knotless - R250">Long Knotless - R250</option>
+            <option value="Extended Knotless - R300">Extended Knotless - R300</option>
+        </select>
+
+        <label>Extras:</label>
+        <select id="extra">
+            <option value="No Extra">No Extra</option>
+            <option value="Hairpiece Blending +R30">Hairpiece Blending +R30</option>
+            <option value="Goddess Effect +R50">Goddess Effect +R50</option>
+        </select>
+
+        <label>Preferred Date:</label>
+        <input type="date" id="date" required>
+
+        <label>Preferred Time:</label>
+        <input type="time" id="time" required>
+
+        <label>Additional Notes (optional):</label>
+        <textarea id="notes" rows="4"></textarea>
+
+        <button type="submit" class="btn">Send Booking</button>
+    </form>
+</div>
+
+<script>
+document.getElementById("bookingForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const name = document.getElementById("name").value;
+    const phone = document.getElementById("phone").value;
+    const service = document.getElementById("service").value;
+    const extra = document.getElementById("extra").value;
+    const date = document.getElementById("date").value;
+    const time = document.getElementById("time").value;
+    const notes = document.getElementById("notes").value;
+
+    const message = 
+        `BOOKING REQUEST:%0A` +
+        `Name: ${name}%0A` +
+        `Phone: ${phone}%0A` +
+        `Service: ${service}%0A` +
+        `Extra: ${extra}%0A` +
+        `Date: ${date}%0A` +
+        `Time: ${time}%0A` +
+        `Notes: ${notes}`;
+
+    const whatsappURL = `https://wa.me/27606374546?text=${message}`;
+
+    window.open(whatsappURL, "_blank");
+});
+</script>
+
+<footer>
+    © 2025 Thando's Beauty
+</footer>
+
+</body>
+</html>
