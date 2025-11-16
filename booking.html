@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Appointment - Thando's Beauty</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Thando's Beauty</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="booking.html">Booking</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<div class="booking-container">
+    <h2>Online Booking Form</h2>
+
+    <form id="bookingForm">
+
+        <label>Full Name:</label>
+        <input type="text" id="name" required>
+
+        <label>Phone Number:</label>
+        <input type="text" id="phone" required>
+
+        <label>Select Service:</label>
+        <select id="service" required>
+            <option value="Short Knotless - R200">Short Knotless - R200</option>
+            <option value="Long Knotless - R250">Long Knotless - R250</option>
+            <option value="Extended Knotless - R300">Extended Knotless - R300</option>
+        </select>
+
+        <label>Extras:</label>
+        <select id="extra">
+            <option value="No Extra">No Extra</option>
+            <option value="Hairpiece Blending +R30">Hairpiece Blending +R30</option>
+            <option value="Goddess Effect +R50">Goddess Effect +R50</option>
+        </select>
+
+        <label>Preferred Date:</label>
+        <input type="date" id="date" required>
+
+        <label>Preferred Time:</label>
+        <input type="time" id="time" required>
+
+        <label>Additional Notes (optional):</label>
+        <textarea id="notes" rows="4"></textarea>
+
+        <button type="submit" class="btn">Send Booking</button>
+    </form>
+</div>
+
+<script>
+document.getElementById("bookingForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const name = document.getElementById("name").value;
+    const phone = document.getElementById("phone").value;
+    const service = document.getElementById("service").value;
+    const extra = document.getElementById("extra").value;
+    const date = document.getElementById("date").value;
+    const time = document.getElementById("time").value;
+    const notes = document.getElementById("notes").value;
+
+    const message = 
+        `BOOKING REQUEST:%0A` +
+        `Name: ${name}%0A` +
+        `Phone: ${phone}%0A` +
+        `Service: ${service}%0A` +
+        `Extra: ${extra}%0A` +
+        `Date: ${date}%0A` +
+        `Time: ${time}%0A` +
+        `Notes: ${notes}`;
+
+    const whatsappURL = `https://wa.me/27606374546?text=${message}`;
+
+    window.open(whatsappURL, "_blank");
+});
+</script>
+
+<footer>
+    © 2025 Thando's Beauty
+</footer>
+
+</body>
+</html>
